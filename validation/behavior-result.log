@@ -1,0 +1,8 @@
+test_failure_boundary (test_skill.SkillTests) ... ok
+test_normal (test_skill.SkillTests) ... ok
+test_refuse_overwrite (test_skill.SkillTests) ... ok
+
+----------------------------------------------------------------------
+Ran 3 tests in 0.036s
+
+OK

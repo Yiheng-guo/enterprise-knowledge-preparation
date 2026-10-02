@@ -1,0 +1,28 @@
+{
+  "as_of": "2026-10-02",
+  "records": [
+    {
+      "id": "K01",
+      "topic": "退货",
+      "claim": "未拆封7天可申请，审核确认。",
+      "source": "synthetic-policy-v1",
+      "source_locator": "§1",
+      "observed_at": "2026-10-02",
+      "valid_until": "2026-12-31",
+      "owner": "示例运营",
+      "access": "public",
+      "kind": "fact"
+    },
+    {
+      "id": "K02",
+      "topic": "内部订单",
+      "claim": "内部订单记录需要授权。",
+      "source": "synthetic-internal-v1",
+      "source_locator": "row 1",
+      "observed_at": "2026-10-02",
+      "owner": "示例运营",
+      "access": "internal",
+      "kind": "fact"
+    }
+  ]
+}

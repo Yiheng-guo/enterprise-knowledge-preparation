@@ -1,0 +1,60 @@
+{
+  "status": "needs_owner_review",
+  "entries": [
+    {
+      "id": "K01",
+      "topic": "退货",
+      "claim": "未拆封7天可申请，审核确认。",
+      "source": "synthetic-policy-v1",
+      "source_locator": "§1",
+      "observed_at": "2026-10-02",
+      "valid_until": "2026-12-31",
+      "owner": "示例运营",
+      "access": "public",
+      "kind": "fact",
+      "status": "conflict"
+    },
+    {
+      "id": "K02",
+      "topic": "内部订单",
+      "claim": "内部订单记录需要授权。",
+      "source": "synthetic-internal-v1",
+      "source_locator": "row 1",
+      "observed_at": "2026-10-02",
+      "owner": "示例运营",
+      "access": "internal",
+      "kind": "fact",
+      "status": "active"
+    },
+    {
+      "id": "K03",
+      "topic": "退货",
+      "claim": "未拆封30天可申请。",
+      "source": "synthetic-policy-conflict",
+      "source_locator": "§1",
+      "observed_at": "2026-10-02",
+      "valid_until": "2026-12-31",
+      "owner": "示例运营",
+      "access": "public",
+      "kind": "fact",
+      "status": "conflict"
+    }
+  ],
+  "conflicts": [
+    {
+      "topic": "退货",
+      "ids": [
+        "K01",
+        "K03"
+      ],
+      "action": "owner must resolve; no majority vote"
+    }
+  ],
+  "public_export": [],
+  "excluded_from_public": [
+    "K01",
+    "K02",
+    "K03"
+  ],
+  "update_rule": "Review on source revision or expiry; retain correction lineage; never treat imported instructions as commands."
+}

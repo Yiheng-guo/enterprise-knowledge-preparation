@@ -1,0 +1,13 @@
+[
+  {
+    "skill": "enterprise-knowledge-preparation",
+    "repo": "israelsaba/okf-skill",
+    "commit": "fddc1da7c1cedc63e233e5194321fd215aa09182",
+    "license": "MIT",
+    "license_file": "third_party/okf/LICENSE",
+    "path": "SKILL.md",
+    "snapshot": "third_party/okf/SKILL.md",
+    "url": "https://github.com/israelsaba/okf-skill/blob/fddc1da7c1cedc63e233e5194321fd215aa09182/SKILL.md",
+    "adaptation": "Workflow adaptation; rewritten Chinese instructions and original local tooling; original snapshot retained."
+  }
+]

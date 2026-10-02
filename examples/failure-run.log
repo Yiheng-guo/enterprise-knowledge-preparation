@@ -1,0 +1,2 @@
+exit_code=0
+{"output": "$REPO/examples/failure-output.json", "status": "needs_owner_review"}
